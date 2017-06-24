@@ -1,8 +1,13 @@
 # JohnLBevan.github.io
+
 ## Git Hub Info
+
 * [Project Ideas](/ProjectIdeas/index.md)
+
 ## Elsewhere On The Web
+
 ###Social Media
+
 * [8 Tracks](https://8tracks.com/johnlbevan)
 * [Facebook](https://www.facebook.com/johnlbevan)
 * [Flickr](https://www.flickr.com/people/johnlbevan/)
@@ -14,6 +19,7 @@
 * [YouTube](https://www.youtube.com/user/JohnLBevan)
 
 ###Software Development
+
 * [Blog](http://developer42.wordpress.org)
 * [Developer Story](https://stackoverflow.com/users/story/361842)
 * [Dynamics Forum](https://community.dynamics.com/members/john-bevan)
