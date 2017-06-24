@@ -18,6 +18,10 @@ Example:
       {
           return string.Format(date, format); //we'd actually write code here to work per XSLT 2.0 definitions; i.e. http://www.sixtree.com.au/articles/2013/formatting-dates-and-times-using-xslt-2.0-and-xpath/
       }
+	  public object max (params object[] args) 
+	  {
+		return args.Max();
+	  }
     ]]>
 </msxsl:script>
 ```
