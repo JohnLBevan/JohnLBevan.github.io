@@ -6,7 +6,7 @@
 
 ## Elsewhere On The Web
 
-###Social Media
+### Social Media
 
 * [8 Tracks](https://8tracks.com/johnlbevan)
 * [Facebook](https://www.facebook.com/johnlbevan)
@@ -18,7 +18,7 @@
 * [Twitter](https://twitter.com/JohnLBevan)
 * [YouTube](https://www.youtube.com/user/JohnLBevan)
 
-###Software Development
+### Software Development
 
 * [Blog](http://developer42.wordpress.org)
 * [Developer Story](https://stackoverflow.com/users/story/361842)
