@@ -7,4 +7,4 @@ A collection of useful / interesting resources for seeing how this pandemic is s
 - [Wolfram Alpha Various](https://www.wolframcloud.com/obj/examples/COVID19Resources)
 - [Bing World Map](https://bing.com/covid)
 - [WHO Guidence](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
-- [UK Government Guidence](https://www.gov.uk/government/topical-events/coronavirus-covid-19-uk-government-response)
+- [UK Government Guidance](https://www.gov.uk/government/topical-events/coronavirus-covid-19-uk-government-response)
