@@ -9,4 +9,4 @@ A collection of useful / interesting resources for seeing how this pandemic is s
 - [Bing World Map](https://bing.com/covid)
 - [WHO Guidence](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
 - [UK Government Guidance](https://www.gov.uk/government/topical-events/coronavirus-covid-19-uk-government-response)
-- [Obligatory XKCD](https://xkcd.com/2282/) and [another](https://xkcd.com/2281/)
+- [Obligatory XKCD](https://xkcd.com/2282/) and more all the way back to comic #2274
