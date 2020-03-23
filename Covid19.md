@@ -10,6 +10,7 @@ A collection of useful / interesting resources for seeing how this pandemic is s
 - [Wolfram Alpha Workbook](https://datarepository.wolframcloud.com/resources/Epidemic-Data-for-Novel-Coronavirus-COVID-19)
 - [Wolfram Alpha Various](https://www.wolframcloud.com/obj/examples/COVID19Resources)
 - [WHO World Map](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd)
+- [WHO UK Regioanl Map](https://www.arcgis.com/apps/opsdashboard/index.html#/f94c3c90da5b4e9f9a0b19484dd4bb14)
 - [WHO World Map - All](https://extranet.who.int/publicemergency) - covers issues including & beyond Covid19
 - [Bing World Map](https://bing.com/covid) - slightly different figures to WHO
 - [WHO Guidence](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
