@@ -11,6 +11,8 @@ A collection of useful / interesting resources for seeing how this pandemic is s
 ## Guidence
 - [WHO Guidence](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
 - [UK Government Guidance](https://www.gov.uk/government/topical-events/coronavirus-covid-19-uk-government-response)
+- [UK Guidence for Employers](https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-support-for-businesses)
+- [UK Guidence for Employees](https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-guidance-for-employees)
 
 ## Maps
 - [UK Community Help Maps](https://www.policecoders.org/home/covid-19/communities) - national list of local support communities
@@ -26,3 +28,5 @@ A collection of useful / interesting resources for seeing how this pandemic is s
 
 ## Comedy for Sanity
 - [Obligatory XKCD](https://xkcd.com/2282/) and more all the way back to comic #2274
+- [Chat with a Commedian](https://www.comedianscomedian.com/lunch)
+
