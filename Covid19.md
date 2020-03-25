@@ -17,7 +17,7 @@ A collection of useful / interesting resources for seeing how this pandemic is s
 ## Maps
 - [UK Community Help Maps](https://www.policecoders.org/home/covid-19/communities) - national list of local support communities
 - [WHO World Map](https://experience.arcgis.com/experience/685d0ace521648f8a5beeeee1b9125cd)
-- [John Hopkins World Map](https://www.allbirds.co.uk/?utm_source=google&utm_medium=cpc&utm_campaign=Search+%2F%2F+UK+%2F%2F+Allbirds+Brand+Prospecting&utm_content=312325613935_61918852033&utm_term=allbirds_aud-794151850551:kwd-298705770643&gclid=CjwKCAjw3-bzBRBhEiwAgnnLCppy62yp8Cy8gxZ1VvdxwqiUFmoDCqy6VVB5TEmsUmSfEDrKDeNpmhoC64gQAvD_BwE) - similar to the WHO one, but with additional columns for deaths vs recovered, and line chart showing increase over time.
+- [John Hopkins World Map](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6) - similar to the WHO one, but with additional columns for deaths vs recovered, and line chart showing increase over time.
 - [WHO UK Regional Map](https://www.arcgis.com/apps/opsdashboard/index.html#/f94c3c90da5b4e9f9a0b19484dd4bb14)
 - [WHO World Map - All](https://extranet.who.int/publicemergency) - covers issues including & beyond Covid19
 - [Bing World Map](https://bing.com/covid) - slightly different figures to WHO
