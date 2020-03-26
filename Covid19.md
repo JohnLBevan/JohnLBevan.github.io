@@ -13,6 +13,7 @@ A collection of useful / interesting resources for seeing how this pandemic is s
 - [UK Government Guidance](https://www.gov.uk/government/topical-events/coronavirus-covid-19-uk-government-response)
 - [UK Guidance for Employers](https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-support-for-businesses)
 - [UK Guidance for Employees](https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-guidance-for-employees)
+- [Stop the Spread](https://stopthespread.info/) simple notes on what you can do, and links to helpful resources.
 
 ## Maps
 - [UK Community Help Maps](https://www.policecoders.org/home/covid-19/communities) - national list of local support communities
