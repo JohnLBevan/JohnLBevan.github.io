@@ -8,7 +8,7 @@ A collection of useful / interesting resources for seeing how this pandemic is s
 - [Wolfram Alpha Workbook](https://datarepository.wolframcloud.com/resources/Epidemic-Data-for-Novel-Coronavirus-COVID-19)
 - [Wolfram Alpha Various](https://www.wolframcloud.com/obj/examples/COVID19Resources)
 
-## Guidence
+## Guidance
 - [WHO Guidance](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
 - [UK Government Guidance](https://www.gov.uk/government/topical-events/coronavirus-covid-19-uk-government-response)
 - [UK Guidance for Employers](https://www.gov.uk/government/publications/guidance-to-employers-and-businesses-about-covid-19/covid-19-support-for-businesses)
@@ -23,6 +23,7 @@ A collection of useful / interesting resources for seeing how this pandemic is s
 - [Bing World Map](https://bing.com/covid) - slightly different figures to WHO
 
 ## Helping
+- [Support the UK NHS Staff](https://www.helpthemhelpus.co.uk/)
 - [Links to volunteering resources](https://coronavirustechhandbook.com/volunteering) 
 - [IBM's Call for Code](https://developer.ibm.com/callforcode/)
 - [Various projects around the pandemic](https://helpwithcovid.com/) 
