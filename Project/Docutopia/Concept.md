@@ -2,7 +2,7 @@
 
 ## An architectural approach to documentation
 
-For discussion, please see related [Hacker News Thread](https://news.ycombinator.com/?tbd).
+For discussion, please see related [Hacker News Thread](https://news.ycombinator.com/item?id=22994612).
 
 ### Background
 
@@ -31,4 +31,4 @@ Here are some of my thoughts on what a good solution may look like... It's quite
 - Are there tools which could help with this process?  
 - Are there pieces you'd add / remove / dispute?
 
-Please share your thoughts here: [Hacker News Thread](https://news.ycombinator.com/?tbd).
+Please share your thoughts here: [Hacker News Thread](https://news.ycombinator.com/item?id=22994612).
