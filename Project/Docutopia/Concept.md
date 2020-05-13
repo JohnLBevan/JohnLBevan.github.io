@@ -32,3 +32,7 @@ Here are some of my thoughts on what a good solution may look like... It's quite
 - Are there pieces you'd add / remove / dispute?
 
 Please share your thoughts here: [Hacker News Thread](https://news.ycombinator.com/item?id=22994612).
+
+### Useful Links
+
+- [Diagrams.MinGrammer](https://diagrams.mingrammer.com/docs/guides/edge) seems a useful way of writing diagrams.  Code's written in Python rather than as a DSL, but we could likely write a wrapper for that.
