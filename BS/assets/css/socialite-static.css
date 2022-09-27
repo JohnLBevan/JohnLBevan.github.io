@@ -1,0 +1,570 @@
+/*
+    This file represents all the selectable options you'd see with the Socialite template
+*/
+
+/* ****************************************************************************
+    STYLING FONT FAMILIES
+*/
+
+/* arial is universal; so not defining a font face here */
+@font-face {
+    font-family: 'Chalk';
+    src: url('../fonts/journal.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Cream';
+    src: url('../fonts/CREAMBOL.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'Igloo';
+    src: url('../fonts/IGLOO.TTF') format('truetype');
+}
+@font-face {
+    font-family: 'Veranda';
+    src: url('../fonts/verdana.ttf') format('truetype');
+}
+
+.font-styling-face-Arial {
+    font-family: Arial;
+}
+.font-styling-face-Chalk {
+    font-family: 'Chalk';
+}
+.font-styling-face-Cream {
+    font-family: 'Cream';
+}
+.font-styling-face-Igloo {
+    font-family: 'Igloo';
+}
+.font-styling-face-Veranda {
+    font-family: 'Veranda';
+}
+
+
+/* ****************************************************************************
+    STYLING FONT COLOURS
+    In the original Socialite template we had a colour picker giving the full RGB options.
+    16581376 combos is too much; so offering just the general named colours here
+    https://www.w3schools.com/tags/ref_colornames.asp
+*/
+
+.font-styling-color-AliceBlue {
+    color: AliceBlue; /* (F0F8FF) */
+}
+.font-styling-color-AntiqueWhite {
+    color: AntiqueWhite; /* (FAEBD7) */
+}
+.font-styling-color-Aqua {
+    color: Aqua; /* (00FFFF) */
+}
+.font-styling-color-Aquamarine {
+    color: Aquamarine; /* (7FFFD4) */
+}
+.font-styling-color-Azure {
+    color: Azure; /* (F0FFFF) */
+}
+.font-styling-color-Beige {
+    color: Beige; /* (F5F5DC) */
+}
+.font-styling-color-Bisque {
+    color: Bisque; /* (FFE4C4) */
+}
+.font-styling-color-Black {
+    color: Black; /* (000000) */
+}
+.font-styling-color-BlanchedAlmond {
+    color: BlanchedAlmond; /* (FFEBCD) */
+}
+.font-styling-color-Blue {
+    color: Blue; /* (0000FF) */
+}
+.font-styling-color-BlueViolet {
+    color: BlueViolet; /* (8A2BE2) */
+}
+.font-styling-color-Brown {
+    color: Brown; /* (A52A2A) */
+}
+.font-styling-color-BurlyWood {
+    color: BurlyWood; /* (DEB887) */
+}
+.font-styling-color-CadetBlue {
+    color: CadetBlue; /* (5F9EA0) */
+}
+.font-styling-color-Chartreuse {
+    color: Chartreuse; /* (7FFF00) */
+}
+.font-styling-color-Chocolate {
+    color: Chocolate; /* (D2691E) */
+}
+.font-styling-color-Coral {
+    color: Coral; /* (FF7F50) */
+}
+.font-styling-color-CornflowerBlue {
+    color: CornflowerBlue; /* (6495ED) */
+}
+.font-styling-color-Cornsilk {
+    color: Cornsilk; /* (FFF8DC) */
+}
+.font-styling-color-Crimson {
+    color: Crimson; /* (DC143C) */
+}
+.font-styling-color-Cyan {
+    color: Cyan; /* (00FFFF) */
+}
+.font-styling-color-DarkBlue {
+    color: DarkBlue; /* (00008B) */
+}
+.font-styling-color-DarkCyan {
+    color: DarkCyan; /* (008B8B) */
+}
+.font-styling-color-DarkGoldenRod {
+    color: DarkGoldenRod; /* (B8860B) */
+}
+.font-styling-color-DarkGray {
+    color: DarkGray; /* (A9A9A9) */
+}
+.font-styling-color-DarkGrey {
+    color: DarkGrey; /* (A9A9A9) */
+}
+.font-styling-color-DarkGreen {
+    color: DarkGreen; /* (006400) */
+}
+.font-styling-color-DarkKhaki {
+    color: DarkKhaki; /* (BDB76B) */
+}
+.font-styling-color-DarkMagenta {
+    color: DarkMagenta; /* (8B008B) */
+}
+.font-styling-color-DarkOliveGreen {
+    color: DarkOliveGreen; /* (556B2F) */
+}
+.font-styling-color-DarkOrange {
+    color: DarkOrange; /* (FF8C00) */
+}
+.font-styling-color-DarkOrchid {
+    color: DarkOrchid; /* (9932CC) */
+}
+.font-styling-color-DarkRed {
+    color: DarkRed; /* (8B0000) */
+}
+.font-styling-color-DarkSalmon {
+    color: DarkSalmon; /* (E9967A) */
+}
+.font-styling-color-DarkSeaGreen {
+    color: DarkSeaGreen; /* (8FBC8F) */
+}
+.font-styling-color-DarkSlateBlue {
+    color: DarkSlateBlue; /* (483D8B) */
+}
+.font-styling-color-DarkSlateGray {
+    color: DarkSlateGray; /* (2F4F4F) */
+}
+.font-styling-color-DarkSlateGrey {
+    color: DarkSlateGrey; /* (2F4F4F) */
+}
+.font-styling-color-DarkTurquoise {
+    color: DarkTurquoise; /* (00CED1) */
+}
+.font-styling-color-DarkViolet {
+    color: DarkViolet; /* (9400D3) */
+}
+.font-styling-color-DeepPink {
+    color: DeepPink; /* (FF1493) */
+}
+.font-styling-color-DeepSkyBlue {
+    color: DeepSkyBlue; /* (00BFFF) */
+}
+.font-styling-color-DimGray {
+    color: DimGray; /* (696969) */
+}
+.font-styling-color-DimGrey {
+    color: DimGrey; /* (696969) */
+}
+.font-styling-color-DodgerBlue {
+    color: DodgerBlue; /* (1E90FF) */
+}
+.font-styling-color-FireBrick {
+    color: FireBrick; /* (B22222) */
+}
+.font-styling-color-FloralWhite {
+    color: FloralWhite; /* (FFFAF0) */
+}
+.font-styling-color-ForestGreen {
+    color: ForestGreen; /* (228B22) */
+}
+.font-styling-color-Fuchsia {
+    color: Fuchsia; /* (FF00FF) */
+}
+.font-styling-color-Gainsboro {
+    color: Gainsboro; /* (DCDCDC) */
+}
+.font-styling-color-GhostWhite {
+    color: GhostWhite; /* (F8F8FF) */
+}
+.font-styling-color-Gold {
+    color: Gold; /* (FFD700) */
+}
+.font-styling-color-GoldenRod {
+    color: GoldenRod; /* (DAA520) */
+}
+.font-styling-color-Gray {
+    color: Gray; /* (808080) */
+}
+.font-styling-color-Grey {
+    color: Grey; /* (808080) */
+}
+.font-styling-color-Green {
+    color: Green; /* (008000) */
+}
+.font-styling-color-GreenYellow {
+    color: GreenYellow; /* (ADFF2F) */
+}
+.font-styling-color-HoneyDew {
+    color: HoneyDew; /* (F0FFF0) */
+}
+.font-styling-color-HotPink {
+    color: HotPink; /* (FF69B4) */
+}
+.font-styling-color-IndianRed {
+    color: IndianRed; /* (CD5C5C) */
+}
+.font-styling-color-Indigo {
+    color: Indigo; /* (4B0082) */
+}
+.font-styling-color-Ivory {
+    color: Ivory; /* (FFFFF0) */
+}
+.font-styling-color-Khaki {
+    color: Khaki; /* (F0E68C) */
+}
+.font-styling-color-Lavender {
+    color: Lavender; /* (E6E6FA) */
+}
+.font-styling-color-LavenderBlush {
+    color: LavenderBlush; /* (FFF0F5) */
+}
+.font-styling-color-LawnGreen {
+    color: LawnGreen; /* (7CFC00) */
+}
+.font-styling-color-LemonChiffon {
+    color: LemonChiffon; /* (FFFACD) */
+}
+.font-styling-color-LightBlue {
+    color: LightBlue; /* (ADD8E6) */
+}
+.font-styling-color-LightCoral {
+    color: LightCoral; /* (F08080) */
+}
+.font-styling-color-LightCyan {
+    color: LightCyan; /* (E0FFFF) */
+}
+.font-styling-color-LightGoldenRodYellow {
+    color: LightGoldenRodYellow; /* (FAFAD2) */
+}
+.font-styling-color-LightGray {
+    color: LightGray; /* (D3D3D3) */
+}
+.font-styling-color-LightGrey {
+    color: LightGrey; /* (D3D3D3) */
+}
+.font-styling-color-LightGreen {
+    color: LightGreen; /* (90EE90) */
+}
+.font-styling-color-LightPink {
+    color: LightPink; /* (FFB6C1) */
+}
+.font-styling-color-LightSalmon {
+    color: LightSalmon; /* (FFA07A) */
+}
+.font-styling-color-LightSeaGreen {
+    color: LightSeaGreen; /* (20B2AA) */
+}
+.font-styling-color-LightSkyBlue {
+    color: LightSkyBlue; /* (87CEFA) */
+}
+.font-styling-color-LightSlateGray {
+    color: LightSlateGray; /* (778899) */
+}
+.font-styling-color-LightSlateGrey {
+    color: LightSlateGrey; /* (778899) */
+}
+.font-styling-color-LightSteelBlue {
+    color: LightSteelBlue; /* (B0C4DE) */
+}
+.font-styling-color-LightYellow {
+    color: LightYellow; /* (FFFFE0) */
+}
+.font-styling-color-Lime {
+    color: Lime; /* (00FF00) */
+}
+.font-styling-color-LimeGreen {
+    color: LimeGreen; /* (32CD32) */
+}
+.font-styling-color-Linen {
+    color: Linen; /* (FAF0E6) */
+}
+.font-styling-color-Magenta {
+    color: Magenta; /* (FF00FF) */
+}
+.font-styling-color-Maroon {
+    color: Maroon; /* (800000) */
+}
+.font-styling-color-MediumAquaMarine {
+    color: MediumAquaMarine; /* (66CDAA) */
+}
+.font-styling-color-MediumBlue {
+    color: MediumBlue; /* (0000CD) */
+}
+.font-styling-color-MediumOrchid {
+    color: MediumOrchid; /* (BA55D3) */
+}
+.font-styling-color-MediumPurple {
+    color: MediumPurple; /* (9370DB) */
+}
+.font-styling-color-MediumSeaGreen {
+    color: MediumSeaGreen; /* (3CB371) */
+}
+.font-styling-color-MediumSlateBlue {
+    color: MediumSlateBlue; /* (7B68EE) */
+}
+.font-styling-color-MediumSpringGreen {
+    color: MediumSpringGreen; /* (00FA9A) */
+}
+.font-styling-color-MediumTurquoise {
+    color: MediumTurquoise; /* (48D1CC) */
+}
+.font-styling-color-MediumVioletRed {
+    color: MediumVioletRed; /* (C71585) */
+}
+.font-styling-color-MidnightBlue {
+    color: MidnightBlue; /* (191970) */
+}
+.font-styling-color-MintCream {
+    color: MintCream; /* (F5FFFA) */
+}
+.font-styling-color-MistyRose {
+    color: MistyRose; /* (FFE4E1) */
+}
+.font-styling-color-Moccasin {
+    color: Moccasin; /* (FFE4B5) */
+}
+.font-styling-color-NavajoWhite {
+    color: NavajoWhite; /* (FFDEAD) */
+}
+.font-styling-color-Navy {
+    color: Navy; /* (000080) */
+}
+.font-styling-color-OldLace {
+    color: OldLace; /* (FDF5E6) */
+}
+.font-styling-color-Olive {
+    color: Olive; /* (808000) */
+}
+.font-styling-color-OliveDrab {
+    color: OliveDrab; /* (6B8E23) */
+}
+.font-styling-color-Orange {
+    color: Orange; /* (FFA500) */
+}
+.font-styling-color-OrangeRed {
+    color: OrangeRed; /* (FF4500) */
+}
+.font-styling-color-Orchid {
+    color: Orchid; /* (DA70D6) */
+}
+.font-styling-color-PaleGoldenRod {
+    color: PaleGoldenRod; /* (EEE8AA) */
+}
+.font-styling-color-PaleGreen {
+    color: PaleGreen; /* (98FB98) */
+}
+.font-styling-color-PaleTurquoise {
+    color: PaleTurquoise; /* (AFEEEE) */
+}
+.font-styling-color-PaleVioletRed {
+    color: PaleVioletRed; /* (DB7093) */
+}
+.font-styling-color-PapayaWhip {
+    color: PapayaWhip; /* (FFEFD5) */
+}
+.font-styling-color-PeachPuff {
+    color: PeachPuff; /* (FFDAB9) */
+}
+.font-styling-color-Peru {
+    color: Peru; /* (CD853F) */
+}
+.font-styling-color-Pink {
+    color: Pink; /* (FFC0CB) */
+}
+.font-styling-color-Plum {
+    color: Plum; /* (DDA0DD) */
+}
+.font-styling-color-PowderBlue {
+    color: PowderBlue; /* (B0E0E6) */
+}
+.font-styling-color-Purple {
+    color: Purple; /* (800080) */
+}
+.font-styling-color-RebeccaPurple {
+    color: RebeccaPurple; /* (663399) */
+}
+.font-styling-color-Red {
+    color: Red; /* (FF0000) */
+}
+.font-styling-color-RosyBrown {
+    color: RosyBrown; /* (BC8F8F) */
+}
+.font-styling-color-RoyalBlue {
+    color: RoyalBlue; /* (4169E1) */
+}
+.font-styling-color-SaddleBrown {
+    color: SaddleBrown; /* (8B4513) */
+}
+.font-styling-color-Salmon {
+    color: Salmon; /* (FA8072) */
+}
+.font-styling-color-SandyBrown {
+    color: SandyBrown; /* (F4A460) */
+}
+.font-styling-color-SeaGreen {
+    color: SeaGreen; /* (2E8B57) */
+}
+.font-styling-color-SeaShell {
+    color: SeaShell; /* (FFF5EE) */
+}
+.font-styling-color-Sienna {
+    color: Sienna; /* (A0522D) */
+}
+.font-styling-color-Silver {
+    color: Silver; /* (C0C0C0) */
+}
+.font-styling-color-SkyBlue {
+    color: SkyBlue; /* (87CEEB) */
+}
+.font-styling-color-SlateBlue {
+    color: SlateBlue; /* (6A5ACD) */
+}
+.font-styling-color-SlateGray {
+    color: SlateGray; /* (708090) */
+}
+.font-styling-color-SlateGrey {
+    color: SlateGrey; /* (708090) */
+}
+.font-styling-color-Snow {
+    color: Snow; /* (FFFAFA) */
+}
+.font-styling-color-SpringGreen {
+    color: SpringGreen; /* (00FF7F) */
+}
+.font-styling-color-SteelBlue {
+    color: SteelBlue; /* (4682B4) */
+}
+.font-styling-color-Tan {
+    color: Tan; /* (D2B48C) */
+}
+.font-styling-color-Teal {
+    color: Teal; /* (008080) */
+}
+.font-styling-color-Thistle {
+    color: Thistle; /* (D8BFD8) */
+}
+.font-styling-color-Tomato {
+    color: Tomato; /* (FF6347) */
+}
+.font-styling-color-Turquoise {
+    color: Turquoise; /* (40E0D0) */
+}
+.font-styling-color-Violet {
+    color: Violet; /* (EE82EE) */
+}
+.font-styling-color-Wheat {
+    color: Wheat; /* (F5DEB3) */
+}
+.font-styling-color-White {
+    color: White; /* (FFFFFF) */
+}
+.font-styling-color-WhiteSmoke {
+    color: WhiteSmoke; /* (F5F5F5) */
+}
+.font-styling-color-Yellow {
+    color: Yellow; /* (FFFF00) */
+}
+.font-styling-color-YellowGreen {
+    color: YellowGreen; /* (9ACD32) */
+}
+
+/* ****************************************************************************
+    STYLING DROP SHADOW
+*/
+.drop-shadow-off {
+    text-shadow: none;
+}
+
+.drop-shadow-on {
+    text-shadow: 0.5em 0.5em rgba(0,0,0,0.5);
+}
+
+/* ****************************************************************************
+    AREA HORIZONTAL ALIGN
+*/
+.area-halign-left {
+    display: table;
+    margin: auto;
+    margin-left: 0;
+    text-align: left;
+}
+.area-halign-center {
+    display: table;
+    margin: auto;
+    text-align: center;
+}
+.area-halign-right {
+    display: table;
+    margin: auto;
+    margin-right: 0;
+    text-align: right;
+}
+
+/* ****************************************************************************
+    AREA VERTICAL ALIGN
+*/
+.area-valign-top {
+    display: table-cell;
+    vertical-align: top;
+}
+.area-valign-middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+.area-valign-bottom {
+    display: table-cell;
+    vertical-align: bottom;
+}
+
+/* ****************************************************************************
+    AREA FONT SIZE
+    todo: work out appropriate units to use for font sizes ... as the original dealt with static images / we want something that scales with the screen
+    The original would have used pt instead of px
+    https://stackoverflow.com/questions/52140628/how-to-scale-element-in-pixel-with-css
+*/
+.area-size-72 {
+    font-size: calc(72 * var(--resizeRatioFont));
+}
+.area-size-84 {
+    font-size: calc(84 * var(--resizeRatioFont));
+}
+.area-size-96 {
+    font-size: calc(96 * var(--resizeRatioFont));
+}
+.area-size-108 {
+    font-size: calc(108 * var(--resizeRatioFont));
+}
+.area-size-132 {
+    font-size: calc(132 * var(--resizeRatioFont));
+}
+.area-size-156 {
+    font-size: calc(156 * var(--resizeRatioFont));
+}
+.area-size-204 {
+    font-size: calc(204 * var(--resizeRatioFont));
+}

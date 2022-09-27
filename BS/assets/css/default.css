@@ -1,0 +1,54 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow-wrap: anywhere;
+}
+html {
+    background-color: deeppink;
+    display: table;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.wrapper {
+    display: block;
+    display: table;
+    margin: auto;
+    /*
+    max-height: 100vh;
+    max-width: 100vw;
+    aspect-ratio: calc(var(--templateWidthPx) / var(--templateHeightPx));
+    transform: scale(calc(100vw/var(--templateWidthPx)),calc(100vh/var(--templateHeightPx)));
+    // todo: work out how to get the current viewport size in pixels so we can calculate without mentioning units
+    transform: scale(calc((100vw - 0px)/var(--templateWidthPx)),calc(100vh - 0px)/var(--templateHeightPx)));
+    */
+}
+.socialite-template-background {
+    position: relative;
+    display: block;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+    /* I think the original socialite code somehow halved the width and height of the template (or doubled all other figures), so adjusting for that with the div 2 */
+    /* width: calc(0.5px * var(--templateWidthPx)); */
+    /*height: calc(0.5px * var(--templateHeightPx)); */
+    height: 100vh;
+    /*
+    max-height: 100vh;
+    max-width: 100vw;
+    min-height: 100vmin;
+    min-width: 100vmin;
+    */
+    aspect-ratio: calc(var(--templateWidthPx) / var(--templateHeightPx));
+}
+.socialite-area {
+    position: absolute;
+    /* border: 1px solid red; / * include this only if debugging */
+    margin: auto;
+    overflow: hidden;
+}
+.socialite-area > div,
+.socialite-area > div > div {
+    height: inherit;
+    width: inherit;
+}
